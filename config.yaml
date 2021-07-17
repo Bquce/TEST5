@@ -1,0 +1,18 @@
+bot:
+    token: 1943587886:AAHVEo2RBsq7zp-mULsFn2mhM_KRD5gKcE4
+    parse_mode: html
+
+executor:
+    skip_updates: true
+
+modules:
+    - handlers.main
+    - handlers.errors
+
+log_ignore:
+    - aiogram
+    - asyncio
+    - aiogram.Middleware
+
+commands:
+    start: Начать беседу со мной
