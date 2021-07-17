@@ -1,6 +1,5 @@
 apt update 
 apt install python3.9 -y
-apt install python3-pip
 apt install screen -y
 apt install python3-venv
 python3 -m venv bot
